@@ -6,20 +6,214 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6E1D798F18BC5D1B0046671E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E1D798E18BC5D1B0046671E /* Images.xcassets */; };
+		6EFF474118BC58F300691A3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFF474018BC58F300691A3C /* Cocoa.framework */; };
+		6EFF474B18BC58F300691A3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF474918BC58F300691A3C /* InfoPlist.strings */; };
+		6EFF474D18BC58F300691A3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF474C18BC58F300691A3C /* main.m */; };
+		6EFF475118BC58F300691A3C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF474F18BC58F300691A3C /* Credits.rtf */; };
+		6EFF475418BC58F300691A3C /* WSMNSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF475318BC58F300691A3C /* WSMNSAppDelegate.m */; };
+		6EFF475718BC58F300691A3C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF475518BC58F300691A3C /* MainMenu.xib */; };
+		6EFF476018BC58F300691A3C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFF475F18BC58F300691A3C /* XCTest.framework */; };
+		6EFF476118BC58F300691A3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFF474018BC58F300691A3C /* Cocoa.framework */; };
+		6EFF476918BC58F300691A3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF476718BC58F300691A3C /* InfoPlist.strings */; };
+		6EFF476B18BC58F300691A3C /* wrkstrmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF476A18BC58F300691A3C /* wrkstrmTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EFF476218BC58F300691A3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EFF473318BC57D600691A3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EFF473C18BC58F300691A3C;
+			remoteInfo = wrkstrm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E1D798E18BC5D1B0046671E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E1D799018BC5D640046671E /* wrkstrm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wrkstrm.entitlements; sourceTree = "<group>"; };
+		6EFF473D18BC58F300691A3C /* wrkstrm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wrkstrm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFF474018BC58F300691A3C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6EFF474318BC58F300691A3C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6EFF474418BC58F300691A3C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6EFF474518BC58F300691A3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EFF474818BC58F300691A3C /* wrkstrm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wrkstrm-Info.plist"; sourceTree = "<group>"; };
+		6EFF474A18BC58F300691A3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EFF474C18BC58F300691A3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EFF474E18BC58F300691A3C /* wrkstrm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wrkstrm-Prefix.pch"; sourceTree = "<group>"; };
+		6EFF475018BC58F300691A3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6EFF475218BC58F300691A3C /* WSMNSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSMNSAppDelegate.h; sourceTree = "<group>"; };
+		6EFF475318BC58F300691A3C /* WSMNSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSMNSAppDelegate.m; sourceTree = "<group>"; };
+		6EFF475618BC58F300691A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6EFF475E18BC58F300691A3C /* wrkstrmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wrkstrmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFF475F18BC58F300691A3C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6EFF476618BC58F300691A3C /* wrkstrmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wrkstrmTests-Info.plist"; sourceTree = "<group>"; };
+		6EFF476818BC58F300691A3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EFF476A18BC58F300691A3C /* wrkstrmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wrkstrmTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EFF473A18BC58F300691A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFF474118BC58F300691A3C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFF475B18BC58F300691A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFF476118BC58F300691A3C /* Cocoa.framework in Frameworks */,
+				6EFF476018BC58F300691A3C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		6EFF473218BC57D600691A3C = {
 			isa = PBXGroup;
 			children = (
+				6EFF474618BC58F300691A3C /* wrkstrm */,
+				6EFF476418BC58F300691A3C /* wrkstrmTests */,
+				6EFF473F18BC58F300691A3C /* Frameworks */,
+				6EFF473E18BC58F300691A3C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		6EFF473E18BC58F300691A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EFF473D18BC58F300691A3C /* wrkstrm.app */,
+				6EFF475E18BC58F300691A3C /* wrkstrmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EFF473F18BC58F300691A3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EFF474018BC58F300691A3C /* Cocoa.framework */,
+				6EFF475F18BC58F300691A3C /* XCTest.framework */,
+				6EFF474218BC58F300691A3C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EFF474218BC58F300691A3C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EFF474318BC58F300691A3C /* AppKit.framework */,
+				6EFF474418BC58F300691A3C /* CoreData.framework */,
+				6EFF474518BC58F300691A3C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6EFF474618BC58F300691A3C /* wrkstrm */ = {
+			isa = PBXGroup;
+			children = (
+				6E1D799018BC5D640046671E /* wrkstrm.entitlements */,
+				6EFF475218BC58F300691A3C /* WSMNSAppDelegate.h */,
+				6EFF475318BC58F300691A3C /* WSMNSAppDelegate.m */,
+				6EFF475518BC58F300691A3C /* MainMenu.xib */,
+				6E1D798E18BC5D1B0046671E /* Images.xcassets */,
+				6EFF474718BC58F300691A3C /* Supporting Files */,
+			);
+			path = wrkstrm;
+			sourceTree = "<group>";
+		};
+		6EFF474718BC58F300691A3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EFF474818BC58F300691A3C /* wrkstrm-Info.plist */,
+				6EFF474918BC58F300691A3C /* InfoPlist.strings */,
+				6EFF474C18BC58F300691A3C /* main.m */,
+				6EFF474E18BC58F300691A3C /* wrkstrm-Prefix.pch */,
+				6EFF474F18BC58F300691A3C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EFF476418BC58F300691A3C /* wrkstrmTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EFF476A18BC58F300691A3C /* wrkstrmTests.m */,
+				6EFF476518BC58F300691A3C /* Supporting Files */,
+			);
+			path = wrkstrmTests;
+			sourceTree = "<group>";
+		};
+		6EFF476518BC58F300691A3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EFF476618BC58F300691A3C /* wrkstrmTests-Info.plist */,
+				6EFF476718BC58F300691A3C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EFF473C18BC58F300691A3C /* wrkstrm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFF476C18BC58F300691A3C /* Build configuration list for PBXNativeTarget "wrkstrm" */;
+			buildPhases = (
+				6EFF473918BC58F300691A3C /* Sources */,
+				6EFF473A18BC58F300691A3C /* Frameworks */,
+				6EFF473B18BC58F300691A3C /* Resources */,
+				6E1D799118BC60F70046671E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wrkstrm;
+			productName = wrkstrm;
+			productReference = 6EFF473D18BC58F300691A3C /* wrkstrm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EFF475D18BC58F300691A3C /* wrkstrmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFF476F18BC58F300691A3C /* Build configuration list for PBXNativeTarget "wrkstrmTests" */;
+			buildPhases = (
+				6EFF475A18BC58F300691A3C /* Sources */,
+				6EFF475B18BC58F300691A3C /* Frameworks */,
+				6EFF475C18BC58F300691A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EFF476318BC58F300691A3C /* PBXTargetDependency */,
+			);
+			name = wrkstrmTests;
+			productName = wrkstrmTests;
+			productReference = 6EFF475E18BC58F300691A3C /* wrkstrmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		6EFF473318BC57D600691A3C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					6EFF473C18BC58F300691A3C = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					6EFF475D18BC58F300691A3C = {
+						TestTargetID = 6EFF473C18BC58F300691A3C;
+					};
+				};
 			};
 			buildConfigurationList = 6EFF473618BC57D600691A3C /* Build configuration list for PBXProject "wrkstrm mac" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -27,14 +221,119 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 6EFF473218BC57D600691A3C;
+			productRefGroup = 6EFF473E18BC58F300691A3C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				6EFF473C18BC58F300691A3C /* wrkstrm */,
+				6EFF475D18BC58F300691A3C /* wrkstrmTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EFF473B18BC58F300691A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFF474B18BC58F300691A3C /* InfoPlist.strings in Resources */,
+				6E1D798F18BC5D1B0046671E /* Images.xcassets in Resources */,
+				6EFF475118BC58F300691A3C /* Credits.rtf in Resources */,
+				6EFF475718BC58F300691A3C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFF475C18BC58F300691A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFF476918BC58F300691A3C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E1D799118BC60F70046671E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nif [ -n \"$(find \"$PROJECT_DIR\" \\! -path \"*xcuserdata*\" \\! -path \"*.git\" -newer \"$INFOPLIST_FILE\")\" ]; then\nversionNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"$INFOPLIST_FILE\")\nversionNumber=`echo $versionNumber +0.001|bc`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $versionNumber\" \"$INFOPLIST_FILE\"\n\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$($buildNumber + 1)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EFF473918BC58F300691A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFF475418BC58F300691A3C /* WSMNSAppDelegate.m in Sources */,
+				6EFF474D18BC58F300691A3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFF475A18BC58F300691A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFF476B18BC58F300691A3C /* wrkstrmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EFF476318BC58F300691A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EFF473C18BC58F300691A3C /* wrkstrm */;
+			targetProxy = 6EFF476218BC58F300691A3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EFF474918BC58F300691A3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EFF474A18BC58F300691A3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6EFF474F18BC58F300691A3C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EFF475018BC58F300691A3C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6EFF475518BC58F300691A3C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EFF475618BC58F300691A3C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6EFF476718BC58F300691A3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EFF476818BC58F300691A3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6EFF473718BC57D700691A3C /* Debug */ = {
@@ -49,6 +348,225 @@
 			};
 			name = Release;
 		};
+		6EFF476D18BC58F300691A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = wrkstrm/wrkstrm.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wrkstrm/wrkstrm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "wrkstrm/wrkstrm-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LLVM_LTO = YES;
+				LLVM_VECTORIZE_LOOPS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EFF476E18BC58F300691A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = wrkstrm/wrkstrm.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wrkstrm/wrkstrm-Prefix.pch";
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "wrkstrm/wrkstrm-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LLVM_LTO = YES;
+				LLVM_VECTORIZE_LOOPS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6EFF477018BC58F300691A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wrkstrm.app/Contents/MacOS/wrkstrm";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wrkstrm/wrkstrm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "wrkstrmTests/wrkstrmTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6EFF477118BC58F300691A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wrkstrm.app/Contents/MacOS/wrkstrm";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wrkstrm/wrkstrm-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "wrkstrmTests/wrkstrmTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -57,6 +575,24 @@
 			buildConfigurations = (
 				6EFF473718BC57D700691A3C /* Debug */,
 				6EFF473818BC57D700691A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EFF476C18BC58F300691A3C /* Build configuration list for PBXNativeTarget "wrkstrm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFF476D18BC58F300691A3C /* Debug */,
+				6EFF476E18BC58F300691A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EFF476F18BC58F300691A3C /* Build configuration list for PBXNativeTarget "wrkstrmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFF477018BC58F300691A3C /* Debug */,
+				6EFF477118BC58F300691A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
