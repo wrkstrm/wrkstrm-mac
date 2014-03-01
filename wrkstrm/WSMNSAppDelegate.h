@@ -8,8 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class WSMMenuController;
+
 @interface WSMNSAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, strong) NSStatusItem  *statusItem;
+@property (nonatomic, strong) IBOutlet NSMenu *statusMenu;
+
++ (NSString *)defaultDatabaseDirectory;
 
 @end

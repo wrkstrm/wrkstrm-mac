@@ -1,0 +1,9 @@
+[submodule "vendor/couchbase-lite-objc"]
+	path = vendor/couchbase-lite-objc
+	url = git://github.com/couchbase/couchbase-lite-ios.git
+[submodule "vendor/reactive-cocoa"]
+	path = vendor/reactive-cocoa
+	url = git://github.com/ReactiveCocoa/ReactiveCocoa.git
+[submodule "vendor/cocoa-lumberjack"]
+	path = vendor/cocoa-lumberjack
+	url = git://github.com/CocoaLumberjack/CocoaLumberjack

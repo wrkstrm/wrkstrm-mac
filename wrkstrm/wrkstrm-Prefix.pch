@@ -4,6 +4,15 @@
 //  The contents of this file are implicitly included at the beginning of every source file.
 //
 
+
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
+    #import <SpriteKit/SpriteKit.h>
+    #import <ReactiveCocoa/ReactiveCocoa.h>
+    #import <CouchbaseLite/CouchbaseLite.h>
+    #import "WSMNSAppDelegate.h"
+    #import "WSMUtilities.h"
+
+    //App Specific important files.
+    #import "WSMKeyboardTracker.h"
 #endif

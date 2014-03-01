@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6E1D798F18BC5D1B0046671E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E1D798E18BC5D1B0046671E /* Images.xcassets */; };
+		6E1F79A018C18014007E6E8F /* CBLDatabase+WSMUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F799B18C18014007E6E8F /* CBLDatabase+WSMUtilities.m */; };
+		6E1F79A118C18014007E6E8F /* NSDate+WSMUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F799D18C18014007E6E8F /* NSDate+WSMUtilities.m */; };
+		6E1F79A218C18014007E6E8F /* WSMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F799F18C18014007E6E8F /* WSMLogger.m */; };
+		6E1F79AB18C1805F007E6E8F /* CBLDocument+WSMActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F79A418C1805F007E6E8F /* CBLDocument+WSMActivityModel.m */; };
+		6E1F79AC18C1805F007E6E8F /* WSMActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F79A618C1805F007E6E8F /* WSMActivityModel.m */; };
+		6E1F79AD18C1805F007E6E8F /* WSMKeyEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F79A818C1805F007E6E8F /* WSMKeyEventModel.m */; };
+		6E1F79AE18C1805F007E6E8F /* WSMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F79AA18C1805F007E6E8F /* WSMModel.m */; };
+		6E1F79B518C180DB007E6E8F /* WSMKeyboardTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F79B218C180DB007E6E8F /* WSMKeyboardTracker.m */; };
+		6E1F79B618C180DB007E6E8F /* WSMKeyboardTrackerViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F79B418C180DB007E6E8F /* WSMKeyboardTrackerViews.m */; };
+		6E1F79B918C1810F007E6E8F /* NSStatusItem+WSMKeystrokeTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F79B818C1810F007E6E8F /* NSStatusItem+WSMKeystrokeTracker.m */; };
+		6E1F79E418C1858F007E6E8F /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1F79CD18C18549007E6E8F /* CouchbaseLite.framework */; };
+		6E1F7A2918C187D0007E6E8F /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1F7A1C18C187A5007E6E8F /* ReactiveCocoa.framework */; };
+		6E1F7A3318C18AA3007E6E8F /* Lumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1F7A3018C18A84007E6E8F /* Lumberjack.framework */; };
 		6EFF474118BC58F300691A3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFF474018BC58F300691A3C /* Cocoa.framework */; };
 		6EFF474B18BC58F300691A3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF474918BC58F300691A3C /* InfoPlist.strings */; };
 		6EFF474D18BC58F300691A3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF474C18BC58F300691A3C /* main.m */; };
@@ -21,6 +34,153 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6E1F79CC18C18549007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 270B3DEA1489359000E0A926;
+			remoteInfo = "CBL Mac";
+		};
+		6E1F79CE18C18549007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27B0B7E71492BB6B00A817AD;
+			remoteInfo = "CBL iOS";
+		};
+		6E1F79D018C18549007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27B0B7A91492B83B00A817AD;
+			remoteInfo = "CBL iOS library";
+		};
+		6E1F79D218C18549007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27C70694148864BA00F0F099;
+			remoteInfo = "CBL Mac Demo";
+		};
+		6E1F79D418C18549007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27B0B80B1492C16300A817AD;
+			remoteInfo = "Grocery Sync iOS Demo";
+		};
+		6E1F79D618C18549007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27731F2A1495CFEF00815D67;
+			remoteInfo = "CBL iOS Empty App";
+		};
+		6E1F79D818C18549007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 275315D514ACF0A10065964D;
+			remoteInfo = "CBL Listener Mac";
+		};
+		6E1F79DA18C18549007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA147C3614BCAC3B0052DA4D;
+			remoteInfo = "CBL Listener iOS";
+		};
+		6E1F79DC18C18549007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA023B6414BCA94C008184BB;
+			remoteInfo = "Listener iOS Library";
+		};
+		6E1F79DE18C18549007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 270FE0C814C5008C005FF647;
+			remoteInfo = LiteServ;
+		};
+		6E1F79E018C18549007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27538F5017F13B03004C3BFD;
+			remoteInfo = "LiteServ App";
+		};
+		6E1F79E218C18549007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 792867BF178DE01900248AF0;
+			remoteInfo = CBLJSViewCompiler;
+		};
+		6E1F7A1B18C187A5007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88037F8315056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		6E1F7A1D18C187A5007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		6E1F7A1F18C187A5007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
+			remoteInfo = ReactiveCocoaTests;
+		};
+		6E1F7A2118C187A5007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FAF5223174D4C2000CAC810;
+			remoteInfo = "ReactiveCocoaTests-iOS";
+		};
+		6E1F7A2318C187A5007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F412177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHost";
+		};
+		6E1F7A2518C187A5007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F430177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHostTests";
+		};
+		6E1F7A2718C187A5007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D05AD39417F2D56F0080895B;
+			remoteInfo = "ReactiveCocoa-Mac";
+		};
+		6E1F7A2F18C18A84007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F7A2A18C18A84007E6E8F /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCB3185114EB418E001CFBEE;
+			remoteInfo = Lumberjack;
+		};
+		6E1F7A3118C18A84007E6E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1F7A2A18C18A84007E6E8F /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCB318CA14ED6C3B001CFBEE;
+			remoteInfo = FmwkTest;
+		};
 		6EFF476218BC58F300691A3C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6EFF473318BC57D600691A3C /* Project object */;
@@ -33,6 +193,31 @@
 /* Begin PBXFileReference section */
 		6E1D798E18BC5D1B0046671E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6E1D799018BC5D640046671E /* wrkstrm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wrkstrm.entitlements; sourceTree = "<group>"; };
+		6E1F799818C18014007E6E8F /* WSMUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMUtilities.h; sourceTree = "<group>"; };
+		6E1F799918C18014007E6E8F /* WSMMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMMacros.h; sourceTree = "<group>"; };
+		6E1F799A18C18014007E6E8F /* CBLDatabase+WSMUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBLDatabase+WSMUtilities.h"; sourceTree = "<group>"; };
+		6E1F799B18C18014007E6E8F /* CBLDatabase+WSMUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBLDatabase+WSMUtilities.m"; sourceTree = "<group>"; };
+		6E1F799C18C18014007E6E8F /* NSDate+WSMUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WSMUtilities.h"; sourceTree = "<group>"; };
+		6E1F799D18C18014007E6E8F /* NSDate+WSMUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WSMUtilities.m"; sourceTree = "<group>"; };
+		6E1F799E18C18014007E6E8F /* WSMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMLogger.h; sourceTree = "<group>"; };
+		6E1F799F18C18014007E6E8F /* WSMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMLogger.m; sourceTree = "<group>"; };
+		6E1F79A318C1805F007E6E8F /* CBLDocument+WSMActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBLDocument+WSMActivityModel.h"; sourceTree = "<group>"; };
+		6E1F79A418C1805F007E6E8F /* CBLDocument+WSMActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBLDocument+WSMActivityModel.m"; sourceTree = "<group>"; };
+		6E1F79A518C1805F007E6E8F /* WSMActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMActivityModel.h; sourceTree = "<group>"; };
+		6E1F79A618C1805F007E6E8F /* WSMActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMActivityModel.m; sourceTree = "<group>"; };
+		6E1F79A718C1805F007E6E8F /* WSMKeyEventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMKeyEventModel.h; sourceTree = "<group>"; };
+		6E1F79A818C1805F007E6E8F /* WSMKeyEventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMKeyEventModel.m; sourceTree = "<group>"; };
+		6E1F79A918C1805F007E6E8F /* WSMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMModel.h; sourceTree = "<group>"; };
+		6E1F79AA18C1805F007E6E8F /* WSMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMModel.m; sourceTree = "<group>"; };
+		6E1F79B118C180DB007E6E8F /* WSMKeyboardTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMKeyboardTracker.h; sourceTree = "<group>"; };
+		6E1F79B218C180DB007E6E8F /* WSMKeyboardTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMKeyboardTracker.m; sourceTree = "<group>"; };
+		6E1F79B318C180DB007E6E8F /* WSMKeyboardTrackerViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMKeyboardTrackerViews.h; sourceTree = "<group>"; };
+		6E1F79B418C180DB007E6E8F /* WSMKeyboardTrackerViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMKeyboardTrackerViews.m; sourceTree = "<group>"; };
+		6E1F79B718C1810F007E6E8F /* NSStatusItem+WSMKeystrokeTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStatusItem+WSMKeystrokeTracker.h"; sourceTree = "<group>"; };
+		6E1F79B818C1810F007E6E8F /* NSStatusItem+WSMKeystrokeTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStatusItem+WSMKeystrokeTracker.m"; sourceTree = "<group>"; };
+		6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CouchbaseLite.xcodeproj; path = "vendor/couchbase-lite-objc/CouchbaseLite.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = "vendor/reactive-cocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj"; sourceTree = "<group>"; };
+		6E1F7A2A18C18A84007E6E8F /* Lumberjack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lumberjack.xcodeproj; path = "vendor/cocoa-lumberjack/Xcode/LumberjackFramework/Desktop/Lumberjack.xcodeproj"; sourceTree = "<group>"; };
 		6EFF473D18BC58F300691A3C /* wrkstrm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wrkstrm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFF474018BC58F300691A3C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6EFF474318BC58F300691A3C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -58,6 +243,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E1F7A3318C18AA3007E6E8F /* Lumberjack.framework in Frameworks */,
+				6E1F7A2918C187D0007E6E8F /* ReactiveCocoa.framework in Frameworks */,
+				6E1F79E418C1858F007E6E8F /* CouchbaseLite.framework in Frameworks */,
 				6EFF474118BC58F300691A3C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +262,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E1F79AF18C1807A007E6E8F /* CBL Database Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E1F79A318C1805F007E6E8F /* CBLDocument+WSMActivityModel.h */,
+				6E1F79A418C1805F007E6E8F /* CBLDocument+WSMActivityModel.m */,
+				6E1F79A518C1805F007E6E8F /* WSMActivityModel.h */,
+				6E1F79A618C1805F007E6E8F /* WSMActivityModel.m */,
+				6E1F79A718C1805F007E6E8F /* WSMKeyEventModel.h */,
+				6E1F79A818C1805F007E6E8F /* WSMKeyEventModel.m */,
+				6E1F79A918C1805F007E6E8F /* WSMModel.h */,
+				6E1F79AA18C1805F007E6E8F /* WSMModel.m */,
+			);
+			name = "CBL Database Models";
+			sourceTree = "<group>";
+		};
+		6E1F79B018C1809F007E6E8F /* WSMUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				6E1F799818C18014007E6E8F /* WSMUtilities.h */,
+				6E1F799918C18014007E6E8F /* WSMMacros.h */,
+				6E1F799A18C18014007E6E8F /* CBLDatabase+WSMUtilities.h */,
+				6E1F799B18C18014007E6E8F /* CBLDatabase+WSMUtilities.m */,
+				6E1F799C18C18014007E6E8F /* NSDate+WSMUtilities.h */,
+				6E1F799D18C18014007E6E8F /* NSDate+WSMUtilities.m */,
+				6E1F799E18C18014007E6E8F /* WSMLogger.h */,
+				6E1F799F18C18014007E6E8F /* WSMLogger.m */,
+			);
+			name = WSMUtilities;
+			sourceTree = "<group>";
+		};
+		6E1F79BA18C18113007E6E8F /* Stage 0: Create Menulet */ = {
+			isa = PBXGroup;
+			children = (
+				6EFF475218BC58F300691A3C /* WSMNSAppDelegate.h */,
+				6EFF475318BC58F300691A3C /* WSMNSAppDelegate.m */,
+				6E1F79B718C1810F007E6E8F /* NSStatusItem+WSMKeystrokeTracker.h */,
+				6E1F79B818C1810F007E6E8F /* NSStatusItem+WSMKeystrokeTracker.m */,
+			);
+			name = "Stage 0: Create Menulet";
+			sourceTree = "<group>";
+		};
+		6E1F79BC18C18548007E6E8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E1F79CD18C18549007E6E8F /* CouchbaseLite.framework */,
+				6E1F79CF18C18549007E6E8F /* CouchbaseLite.framework */,
+				6E1F79D118C18549007E6E8F /* libCouchbaseLite.a */,
+				6E1F79D318C18549007E6E8F /* Couchbase Lite Demo.app */,
+				6E1F79D518C18549007E6E8F /* Grocery Sync.app */,
+				6E1F79D718C18549007E6E8F /* Couchbase Lite Empty App.app */,
+				6E1F79D918C18549007E6E8F /* CouchbaseLiteListener.framework */,
+				6E1F79DB18C18549007E6E8F /* CouchbaseLiteListener.framework */,
+				6E1F79DD18C18549007E6E8F /* libCouchbaseLiteListener.a */,
+				6E1F79DF18C18549007E6E8F /* LiteServ */,
+				6E1F79E118C18549007E6E8F /* LiteServ.app */,
+				6E1F79E318C18549007E6E8F /* libCBLJSViewCompiler.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E1F7A1018C187A5007E6E8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E1F7A1C18C187A5007E6E8F /* ReactiveCocoa.framework */,
+				6E1F7A1E18C187A5007E6E8F /* libReactiveCocoa-iOS.a */,
+				6E1F7A2018C187A5007E6E8F /* ReactiveCocoaTests.octest */,
+				6E1F7A2218C187A5007E6E8F /* ReactiveCocoaTests-iOS.octest */,
+				6E1F7A2418C187A5007E6E8F /* ReactiveCocoa-iOS-UIKitTestHost.app */,
+				6E1F7A2618C187A5007E6E8F /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */,
+				6E1F7A2818C187A5007E6E8F /* libReactiveCocoa-Mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E1F7A2B18C18A84007E6E8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E1F7A3018C18A84007E6E8F /* Lumberjack.framework */,
+				6E1F7A3218C18A84007E6E8F /* FmwkTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6EFF473218BC57D600691A3C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +352,9 @@
 				6EFF476418BC58F300691A3C /* wrkstrmTests */,
 				6EFF473F18BC58F300691A3C /* Frameworks */,
 				6EFF473E18BC58F300691A3C /* Products */,
+				6E1F7A2A18C18A84007E6E8F /* Lumberjack.xcodeproj */,
+				6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */,
+				6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,9 +390,12 @@
 		6EFF474618BC58F300691A3C /* wrkstrm */ = {
 			isa = PBXGroup;
 			children = (
-				6E1D799018BC5D640046671E /* wrkstrm.entitlements */,
-				6EFF475218BC58F300691A3C /* WSMNSAppDelegate.h */,
-				6EFF475318BC58F300691A3C /* WSMNSAppDelegate.m */,
+				6E1F79BA18C18113007E6E8F /* Stage 0: Create Menulet */,
+				6E1F79B118C180DB007E6E8F /* WSMKeyboardTracker.h */,
+				6E1F79B218C180DB007E6E8F /* WSMKeyboardTracker.m */,
+				6E1F79B318C180DB007E6E8F /* WSMKeyboardTrackerViews.h */,
+				6E1F79B418C180DB007E6E8F /* WSMKeyboardTrackerViews.m */,
+				6E1F79AF18C1807A007E6E8F /* CBL Database Models */,
 				6EFF475518BC58F300691A3C /* MainMenu.xib */,
 				6E1D798E18BC5D1B0046671E /* Images.xcassets */,
 				6EFF474718BC58F300691A3C /* Supporting Files */,
@@ -129,8 +406,10 @@
 		6EFF474718BC58F300691A3C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6E1D799018BC5D640046671E /* wrkstrm.entitlements */,
 				6EFF474818BC58F300691A3C /* wrkstrm-Info.plist */,
 				6EFF474918BC58F300691A3C /* InfoPlist.strings */,
+				6E1F79B018C1809F007E6E8F /* WSMUtilities */,
 				6EFF474C18BC58F300691A3C /* main.m */,
 				6EFF474E18BC58F300691A3C /* wrkstrm-Prefix.pch */,
 				6EFF474F18BC58F300691A3C /* Credits.rtf */,
@@ -226,6 +505,20 @@
 			mainGroup = 6EFF473218BC57D600691A3C;
 			productRefGroup = 6EFF473E18BC58F300691A3C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6E1F79BC18C18548007E6E8F /* Products */;
+					ProjectRef = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
+				},
+				{
+					ProductGroup = 6E1F7A2B18C18A84007E6E8F /* Products */;
+					ProjectRef = 6E1F7A2A18C18A84007E6E8F /* Lumberjack.xcodeproj */;
+				},
+				{
+					ProductGroup = 6E1F7A1018C187A5007E6E8F /* Products */;
+					ProjectRef = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6EFF473C18BC58F300691A3C /* wrkstrm */,
@@ -233,6 +526,156 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6E1F79CD18C18549007E6E8F /* CouchbaseLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CouchbaseLite.framework;
+			remoteRef = 6E1F79CC18C18549007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F79CF18C18549007E6E8F /* CouchbaseLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CouchbaseLite.framework;
+			remoteRef = 6E1F79CE18C18549007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F79D118C18549007E6E8F /* libCouchbaseLite.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCouchbaseLite.a;
+			remoteRef = 6E1F79D018C18549007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F79D318C18549007E6E8F /* Couchbase Lite Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Couchbase Lite Demo.app";
+			remoteRef = 6E1F79D218C18549007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F79D518C18549007E6E8F /* Grocery Sync.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Grocery Sync.app";
+			remoteRef = 6E1F79D418C18549007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F79D718C18549007E6E8F /* Couchbase Lite Empty App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Couchbase Lite Empty App.app";
+			remoteRef = 6E1F79D618C18549007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F79D918C18549007E6E8F /* CouchbaseLiteListener.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CouchbaseLiteListener.framework;
+			remoteRef = 6E1F79D818C18549007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F79DB18C18549007E6E8F /* CouchbaseLiteListener.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CouchbaseLiteListener.framework;
+			remoteRef = 6E1F79DA18C18549007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F79DD18C18549007E6E8F /* libCouchbaseLiteListener.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCouchbaseLiteListener.a;
+			remoteRef = 6E1F79DC18C18549007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F79DF18C18549007E6E8F /* LiteServ */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = LiteServ;
+			remoteRef = 6E1F79DE18C18549007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F79E118C18549007E6E8F /* LiteServ.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LiteServ.app;
+			remoteRef = 6E1F79E018C18549007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F79E318C18549007E6E8F /* libCBLJSViewCompiler.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCBLJSViewCompiler.a;
+			remoteRef = 6E1F79E218C18549007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F7A1C18C187A5007E6E8F /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = 6E1F7A1B18C187A5007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F7A1E18C187A5007E6E8F /* libReactiveCocoa-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-iOS.a";
+			remoteRef = 6E1F7A1D18C187A5007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F7A2018C187A5007E6E8F /* ReactiveCocoaTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveCocoaTests.octest;
+			remoteRef = 6E1F7A1F18C187A5007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F7A2218C187A5007E6E8F /* ReactiveCocoaTests-iOS.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoaTests-iOS.octest";
+			remoteRef = 6E1F7A2118C187A5007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F7A2418C187A5007E6E8F /* ReactiveCocoa-iOS-UIKitTestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ReactiveCocoa-iOS-UIKitTestHost.app";
+			remoteRef = 6E1F7A2318C187A5007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F7A2618C187A5007E6E8F /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-iOS-UIKitTestHostTests.octest";
+			remoteRef = 6E1F7A2518C187A5007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F7A2818C187A5007E6E8F /* libReactiveCocoa-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-Mac.a";
+			remoteRef = 6E1F7A2718C187A5007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F7A3018C18A84007E6E8F /* Lumberjack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lumberjack.framework;
+			remoteRef = 6E1F7A2F18C18A84007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E1F7A3218C18A84007E6E8F /* FmwkTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FmwkTest.app;
+			remoteRef = 6E1F7A3118C18A84007E6E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6EFF473B18BC58F300691A3C /* Resources */ = {
@@ -277,8 +720,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E1F79B918C1810F007E6E8F /* NSStatusItem+WSMKeystrokeTracker.m in Sources */,
+				6E1F79B618C180DB007E6E8F /* WSMKeyboardTrackerViews.m in Sources */,
+				6E1F79AD18C1805F007E6E8F /* WSMKeyEventModel.m in Sources */,
 				6EFF475418BC58F300691A3C /* WSMNSAppDelegate.m in Sources */,
+				6E1F79AB18C1805F007E6E8F /* CBLDocument+WSMActivityModel.m in Sources */,
+				6E1F79A118C18014007E6E8F /* NSDate+WSMUtilities.m in Sources */,
+				6E1F79A018C18014007E6E8F /* CBLDatabase+WSMUtilities.m in Sources */,
+				6E1F79B518C180DB007E6E8F /* WSMKeyboardTracker.m in Sources */,
+				6E1F79AE18C1805F007E6E8F /* WSMModel.m in Sources */,
 				6EFF474D18BC58F300691A3C /* main.m in Sources */,
+				6E1F79AC18C1805F007E6E8F /* WSMActivityModel.m in Sources */,
+				6E1F79A218C18014007E6E8F /* WSMLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
