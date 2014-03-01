@@ -90,13 +90,14 @@
         _statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
 
         NSImage *menuIcon= [NSImage imageNamed:NSImageNameApplicationIcon];
-        [menuIcon setSize:NSMakeSize(22, 22)];
+        [menuIcon setSize:NSMakeSize(23, 23)];
         [_statusItem setImage: menuIcon];
+        [_statusItem setTitle:@"0"];
 
         [_statusItem bindTitleToKeystrokes];
         [_statusItem setHighlightMode:YES];
         [_statusItem setEnabled:YES];
-        [_statusItem setToolTip:@"Today's keystrokes."];
+        [_statusItem setToolTip:@"Keystrokes since launch"];
         [_statusItem setTarget:self];
 
         [_statusItem setImage: menuIcon];
