@@ -13,6 +13,7 @@
 @interface WSMNSAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (nonatomic, strong) NSStatusItem  *statusItem;
+
 @property (nonatomic, strong) IBOutlet NSMenu *statusMenu;
 
 + (NSString *)defaultDatabaseDirectory;

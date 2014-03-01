@@ -8,10 +8,12 @@
 
 #import "NSStatusItem+WSMKeystrokeTracker.h"
 #import "WSMKeyboardTracker.h"
+#import "WSMAccessibilityUtilities.h"
 
 @interface WSMNSAppDelegate ()
 
 @property (nonatomic) NSTimeInterval runningtime;
+@property (nonatomic, weak) IBOutlet NSWindow *accessiblityAccessDialogWindow;
 
 @end
 
@@ -27,7 +29,6 @@
     logger[kWSMLogFormatKeyFunction] = @30;
 
     // Color the WSlogger. By default DDLog does not color VERBOSE or warn flags.
-
     [logger setColorsEnabled:YES];
     [logger setForegroundColor:SKColor.orangeColor
                backgroundColor:SKColor.blackColor
@@ -43,14 +44,20 @@
 #pragma mark - Application lifecycle
 
 - (void)awakeFromNib {
-    NSDictionary *options = @{(__bridge id)kAXTrustedCheckOptionPrompt: @YES};
+    switch (WSMAccessibilityUtilities.trustState) {
+        case WSMTrustStateFalseBeforeMavericks:{
+            [WSMAccessibilityUtilities displayAccessibilityAPIAlert];
+        } break;
 
-    BOOL accessibilityEnabled = AXIsProcessTrustedWithOptions((__bridge CFDictionaryRef)options);
-    DDLogError(@"Accessibility is enabled and trusted? %@, %@",
-               accessibilityEnabled ? @"YES" : @"NO",
-               AXIsProcessTrusted() ? @"YES" : @"NO");
+        case WSMTrustStateFalseOnOrAfterMavericks: {
+            [[NSApplication sharedApplication] runModalForWindow: self.accessiblityAccessDialogWindow];
 
-    [self.statusItem setMenu:self.statusMenu];
+        } break;
+
+        default: {
+            [self.statusItem setMenu:self.statusMenu];
+        } break;
+    }
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {}
@@ -64,7 +71,7 @@
 }
 
 + (NSString *)ver {
-    NSDictionary *info = [NSBundle mainBundle].infoDictionary;
+    NSDictionary *info = NSBundle.mainBundle.infoDictionary;
     return [NSString stringWithFormat:@"%@ (Version: %@ Build: %@)",
             info[@"CFBundleName"],
             info[@"CFBundleShortVersionString"],
@@ -72,7 +79,7 @@
 }
 
 + (NSString *)defaultDatabaseDirectory {
-    return  [[[NSBundle mainBundle] bundlePath] stringByAppendingString: @"/Contents/Databases"];;
+    return  [[[NSBundle mainBundle] bundlePath] stringByAppendingString: @"/Contents/Databases"];
 }
 
 #pragma mark - Property Lazy instantiation
@@ -82,11 +89,18 @@
     if (!_statusItem) {
         _statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
 
+        NSImage *menuIcon= [NSImage imageNamed:NSImageNameApplicationIcon];
+        [menuIcon setSize:NSMakeSize(22, 22)];
+        [_statusItem setImage: menuIcon];
+
         [_statusItem bindTitleToKeystrokes];
         [_statusItem setHighlightMode:YES];
         [_statusItem setEnabled:YES];
         [_statusItem setToolTip:@"Today's keystrokes."];
         [_statusItem setTarget:self];
+
+        [_statusItem setImage: menuIcon];
+
     }
     return _statusItem;
 }

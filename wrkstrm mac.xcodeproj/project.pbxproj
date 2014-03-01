@@ -21,12 +21,16 @@
 		6E1F79E418C1858F007E6E8F /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1F79CD18C18549007E6E8F /* CouchbaseLite.framework */; };
 		6E1F7A2918C187D0007E6E8F /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1F7A1C18C187A5007E6E8F /* ReactiveCocoa.framework */; };
 		6E1F7A3318C18AA3007E6E8F /* Lumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1F7A3018C18A84007E6E8F /* Lumberjack.framework */; };
+		6E1F7A3D18C199CD007E6E8F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7A3C18C199CD007E6E8F /* MainMenu.xib */; };
+		6E1F7A4118C19A02007E6E8F /* wrkstrm-app.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7A3E18C19A02007E6E8F /* wrkstrm-app.png */; };
+		6E1F7A4218C19A02007E6E8F /* wrkstrm_privacy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7A3F18C19A02007E6E8F /* wrkstrm_privacy2.png */; };
+		6E1F7A4318C19A02007E6E8F /* wrkstrm_privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7A4018C19A02007E6E8F /* wrkstrm_privacy.png */; };
+		6E1F7A4618C19A1F007E6E8F /* WSMAccessibilityUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F7A4518C19A1F007E6E8F /* WSMAccessibilityUtilities.m */; };
 		6EFF474118BC58F300691A3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFF474018BC58F300691A3C /* Cocoa.framework */; };
 		6EFF474B18BC58F300691A3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF474918BC58F300691A3C /* InfoPlist.strings */; };
 		6EFF474D18BC58F300691A3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF474C18BC58F300691A3C /* main.m */; };
 		6EFF475118BC58F300691A3C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF474F18BC58F300691A3C /* Credits.rtf */; };
 		6EFF475418BC58F300691A3C /* WSMNSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF475318BC58F300691A3C /* WSMNSAppDelegate.m */; };
-		6EFF475718BC58F300691A3C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF475518BC58F300691A3C /* MainMenu.xib */; };
 		6EFF476018BC58F300691A3C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFF475F18BC58F300691A3C /* XCTest.framework */; };
 		6EFF476118BC58F300691A3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFF474018BC58F300691A3C /* Cocoa.framework */; };
 		6EFF476918BC58F300691A3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF476718BC58F300691A3C /* InfoPlist.strings */; };
@@ -218,6 +222,12 @@
 		6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CouchbaseLite.xcodeproj; path = "vendor/couchbase-lite-objc/CouchbaseLite.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = "vendor/reactive-cocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj"; sourceTree = "<group>"; };
 		6E1F7A2A18C18A84007E6E8F /* Lumberjack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lumberjack.xcodeproj; path = "vendor/cocoa-lumberjack/Xcode/LumberjackFramework/Desktop/Lumberjack.xcodeproj"; sourceTree = "<group>"; };
+		6E1F7A3C18C199CD007E6E8F /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		6E1F7A3E18C19A02007E6E8F /* wrkstrm-app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wrkstrm-app.png"; sourceTree = "<group>"; };
+		6E1F7A3F18C19A02007E6E8F /* wrkstrm_privacy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrkstrm_privacy2.png; sourceTree = "<group>"; };
+		6E1F7A4018C19A02007E6E8F /* wrkstrm_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrkstrm_privacy.png; sourceTree = "<group>"; };
+		6E1F7A4418C19A1F007E6E8F /* WSMAccessibilityUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMAccessibilityUtilities.h; sourceTree = "<group>"; };
+		6E1F7A4518C19A1F007E6E8F /* WSMAccessibilityUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMAccessibilityUtilities.m; sourceTree = "<group>"; };
 		6EFF473D18BC58F300691A3C /* wrkstrm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wrkstrm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFF474018BC58F300691A3C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6EFF474318BC58F300691A3C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -230,7 +240,6 @@
 		6EFF475018BC58F300691A3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		6EFF475218BC58F300691A3C /* WSMNSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSMNSAppDelegate.h; sourceTree = "<group>"; };
 		6EFF475318BC58F300691A3C /* WSMNSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSMNSAppDelegate.m; sourceTree = "<group>"; };
-		6EFF475618BC58F300691A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6EFF475E18BC58F300691A3C /* wrkstrmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wrkstrmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFF475F18BC58F300691A3C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6EFF476618BC58F300691A3C /* wrkstrmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wrkstrmTests-Info.plist"; sourceTree = "<group>"; };
@@ -273,6 +282,7 @@
 				6E1F79A818C1805F007E6E8F /* WSMKeyEventModel.m */,
 				6E1F79A918C1805F007E6E8F /* WSMModel.h */,
 				6E1F79AA18C1805F007E6E8F /* WSMModel.m */,
+				6E1F7A3C18C199CD007E6E8F /* MainMenu.xib */,
 			);
 			name = "CBL Database Models";
 			sourceTree = "<group>";
@@ -292,15 +302,17 @@
 			name = WSMUtilities;
 			sourceTree = "<group>";
 		};
-		6E1F79BA18C18113007E6E8F /* Stage 0: Create Menulet */ = {
+		6E1F79BA18C18113007E6E8F /* Stage 0: Access & Create Menulet */ = {
 			isa = PBXGroup;
 			children = (
 				6EFF475218BC58F300691A3C /* WSMNSAppDelegate.h */,
 				6EFF475318BC58F300691A3C /* WSMNSAppDelegate.m */,
+				6E1F7A4418C19A1F007E6E8F /* WSMAccessibilityUtilities.h */,
+				6E1F7A4518C19A1F007E6E8F /* WSMAccessibilityUtilities.m */,
 				6E1F79B718C1810F007E6E8F /* NSStatusItem+WSMKeystrokeTracker.h */,
 				6E1F79B818C1810F007E6E8F /* NSStatusItem+WSMKeystrokeTracker.m */,
 			);
-			name = "Stage 0: Create Menulet";
+			name = "Stage 0: Access & Create Menulet";
 			sourceTree = "<group>";
 		};
 		6E1F79BC18C18548007E6E8F /* Products */ = {
@@ -390,13 +402,12 @@
 		6EFF474618BC58F300691A3C /* wrkstrm */ = {
 			isa = PBXGroup;
 			children = (
-				6E1F79BA18C18113007E6E8F /* Stage 0: Create Menulet */,
+				6E1F79BA18C18113007E6E8F /* Stage 0: Access & Create Menulet */,
 				6E1F79B118C180DB007E6E8F /* WSMKeyboardTracker.h */,
 				6E1F79B218C180DB007E6E8F /* WSMKeyboardTracker.m */,
 				6E1F79B318C180DB007E6E8F /* WSMKeyboardTrackerViews.h */,
 				6E1F79B418C180DB007E6E8F /* WSMKeyboardTrackerViews.m */,
 				6E1F79AF18C1807A007E6E8F /* CBL Database Models */,
-				6EFF475518BC58F300691A3C /* MainMenu.xib */,
 				6E1D798E18BC5D1B0046671E /* Images.xcassets */,
 				6EFF474718BC58F300691A3C /* Supporting Files */,
 			);
@@ -406,6 +417,9 @@
 		6EFF474718BC58F300691A3C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6E1F7A3E18C19A02007E6E8F /* wrkstrm-app.png */,
+				6E1F7A3F18C19A02007E6E8F /* wrkstrm_privacy2.png */,
+				6E1F7A4018C19A02007E6E8F /* wrkstrm_privacy.png */,
 				6E1D799018BC5D640046671E /* wrkstrm.entitlements */,
 				6EFF474818BC58F300691A3C /* wrkstrm-Info.plist */,
 				6EFF474918BC58F300691A3C /* InfoPlist.strings */,
@@ -682,10 +696,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E1F7A4218C19A02007E6E8F /* wrkstrm_privacy2.png in Resources */,
 				6EFF474B18BC58F300691A3C /* InfoPlist.strings in Resources */,
 				6E1D798F18BC5D1B0046671E /* Images.xcassets in Resources */,
 				6EFF475118BC58F300691A3C /* Credits.rtf in Resources */,
-				6EFF475718BC58F300691A3C /* MainMenu.xib in Resources */,
+				6E1F7A4118C19A02007E6E8F /* wrkstrm-app.png in Resources */,
+				6E1F7A3D18C199CD007E6E8F /* MainMenu.xib in Resources */,
+				6E1F7A4318C19A02007E6E8F /* wrkstrm_privacy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,7 +728,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/bash\nif [ -n \"$(find \"$PROJECT_DIR\" \\! -path \"*xcuserdata*\" \\! -path \"*.git\" -newer \"$INFOPLIST_FILE\")\" ]; then\nversionNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"$INFOPLIST_FILE\")\nversionNumber=`echo $versionNumber +0.001|bc`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $versionNumber\" \"$INFOPLIST_FILE\"\n\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$($buildNumber + 1)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\nfi\n\n";
+			shellScript = "#!/bin/bash\nif [ -n \"$(find \"$PROJECT_DIR\" \\! -path \"*xcuserdata*\" \\! -path \"*.git\" -newer \"$INFOPLIST_FILE\")\" ]; then\nversionNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"$INFOPLIST_FILE\")\nversionNumber=`echo $versionNumber +0.001|bc`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $versionNumber\" \"$INFOPLIST_FILE\"\n\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\nfi\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -726,6 +743,7 @@
 				6EFF475418BC58F300691A3C /* WSMNSAppDelegate.m in Sources */,
 				6E1F79AB18C1805F007E6E8F /* CBLDocument+WSMActivityModel.m in Sources */,
 				6E1F79A118C18014007E6E8F /* NSDate+WSMUtilities.m in Sources */,
+				6E1F7A4618C19A1F007E6E8F /* WSMAccessibilityUtilities.m in Sources */,
 				6E1F79A018C18014007E6E8F /* CBLDatabase+WSMUtilities.m in Sources */,
 				6E1F79B518C180DB007E6E8F /* WSMKeyboardTracker.m in Sources */,
 				6E1F79AE18C1805F007E6E8F /* WSMModel.m in Sources */,
@@ -768,14 +786,6 @@
 				6EFF475018BC58F300691A3C /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		6EFF475518BC58F300691A3C /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6EFF475618BC58F300691A3C /* Base */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		6EFF476718BC58F300691A3C /* InfoPlist.strings */ = {
@@ -857,7 +867,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LLVM_LTO = YES;
 				LLVM_VECTORIZE_LOOPS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -918,7 +928,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LLVM_LTO = YES;
 				LLVM_VECTORIZE_LOOPS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";

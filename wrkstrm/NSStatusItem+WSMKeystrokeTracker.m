@@ -18,21 +18,8 @@ static const char *const keystrokeKey = "keystrokeKey";
 #define viewName @"viewName"
 
 - (void)bindTitleToKeystrokes {
-    [WSMKeyboardTracker.sharedInstance.dailyKeystrokesQuery runAsync:^(CBLQueryEnumerator *queryEnumerator, NSError *error) {
-        self.title = [NSString stringWithFormat:@"%lu", (unsigned long)queryEnumerator.count];
-    }];
-
-
     [WSMKeyboardTracker.sharedInstance.keystrokeSignal subscribeNext:^(NSArray *savedKeystrokes) {
         self.title = [NSString stringWithFormat:@"%lu", savedKeystrokes.count + self.title.integerValue];
-    }];
-
-    [[[[NSNotificationCenter.defaultCenter rac_addObserverForName:kWSMViewRefreshNotification
-                                                           object:nil]
-       takeUntil:[self rac_willDeallocSignal]] filter:^BOOL(NSNotification *notification) {
-        return [kWSMViewDailyKeystrokeCount isEqualToString: notification.userInfo[viewName]];
-    }] subscribeNext:^(id x) {
-        self.title = @"0";
     }];
 }
 

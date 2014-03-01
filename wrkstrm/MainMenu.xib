@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="494" id="495"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <customObject id="494" customClass="WSMNSAppDelegate">
+            <connections>
+                <outlet property="accessiblityAccessDialogWindow" destination="2iB-QL-UMA" id="Inq-8Q-lRf"/>
+                <outlet property="statusMenu" destination="REr-8j-6eM" id="l3v-No-7xe"/>
+            </connections>
+        </customObject>
+        <customObject id="420" customClass="NSFontManager"/>
+        <menu id="REr-8j-6eM" userLabel="WSMMenu">
+            <items>
+                <menuItem title="Quit wrkstrm" keyEquivalent="q" id="qOg-bC-yVD">
+                    <connections>
+                        <action selector="terminate:" target="-3" id="cLh-JU-Rg7"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="2iB-QL-UMA">
+            <rect key="contentRect" x="422" y="199" width="920" height="474"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
+            <value key="minSize" type="size" width="780" height="414"/>
+            <value key="maxSize" type="size" width="780" height="414"/>
+            <view key="contentView" wantsLayer="YES" appearanceType="lightContent" id="PzT-6r-Scg">
+                <rect key="frame" x="0.0" y="0.0" width="920" height="474"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView appearanceType="lightContent" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FyL-cc-369">
+                        <rect key="frame" x="516" y="-74" width="532" height="622"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <shadow key="shadow" blurRadius="20">
+                            <color key="color" red="0.52657948369999996" green="0.52657948369999996" blue="0.52657948369999996" alpha="1" colorSpace="calibratedRGB"/>
+                        </shadow>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="wrkstrm_privacy2" id="03S-wm-XWc"/>
+                    </imageView>
+                    <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tWT-ca-taV">
+                        <rect key="frame" x="1" y="-56" width="299" height="587"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <shadow key="shadow" blurRadius="20">
+                            <color key="color" red="0.52657948369999996" green="0.52657948369999996" blue="0.52657948369999996" alpha="1" colorSpace="calibratedRGB"/>
+                        </shadow>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="wrkstrm-app" id="pu2-MI-o9V"/>
+                    </imageView>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FF9-8z-9X6">
+                        <rect key="frame" x="343" y="22" width="130" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Quit wrkstrm" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="yy1-QO-Qxj">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e94-Q1-EiA">
+                        <rect key="frame" x="309" y="64" width="199" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Open System Preferences" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="D9Y-qU-LqI">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mrB-l1-dga">
+                        <rect key="frame" x="311" y="334" width="194" height="96"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="wrkstrm needs accessibility features in order to monitor your productivity." id="vsf-Cp-cvs">
+                            <font key="font" size="13" name="LucidaGrande-Bold"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ms1-aM-WtT">
+                        <rect key="frame" x="306" y="125" width="204" height="56"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Drag &amp; drop wrkstrm into the accessibility window. Then, open the app again to get started." id="X78-vN-DFS">
+                            <font key="font" size="11" name="LucidaGrande"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField appearanceType="lightContent" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qw6-Zt-LSb">
+                        <rect key="frame" x="306" y="230" width="204" height="47"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Grant access to this application in System Preferences." id="qgQ-3o-ggN">
+                            <font key="font" size="11" name="LucidaGrande"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <backgroundFilters>
+                    <ciFilter name="CIGaussianBlur">
+                        <configuration>
+                            <null key="inputImage"/>
+                            <real key="inputRadius" value="0.0"/>
+                        </configuration>
+                    </ciFilter>
+                </backgroundFilters>
+            </view>
+        </window>
+    </objects>
+    <resources>
+        <image name="wrkstrm-app" width="885" height="881"/>
+        <image name="wrkstrm_privacy2" width="1347" height="1059"/>
+    </resources>
+</document>
