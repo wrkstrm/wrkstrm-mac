@@ -18,14 +18,14 @@
 		6E1F79B518C180DB007E6E8F /* WSMKeyboardTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F79B218C180DB007E6E8F /* WSMKeyboardTracker.m */; };
 		6E1F79B618C180DB007E6E8F /* WSMKeyboardTrackerViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F79B418C180DB007E6E8F /* WSMKeyboardTrackerViews.m */; };
 		6E1F79B918C1810F007E6E8F /* NSStatusItem+WSMKeystrokeTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F79B818C1810F007E6E8F /* NSStatusItem+WSMKeystrokeTracker.m */; };
-		6E1F79E418C1858F007E6E8F /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1F79CD18C18549007E6E8F /* CouchbaseLite.framework */; };
-		6E1F7A2918C187D0007E6E8F /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1F7A1C18C187A5007E6E8F /* ReactiveCocoa.framework */; };
-		6E1F7A3318C18AA3007E6E8F /* Lumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1F7A3018C18A84007E6E8F /* Lumberjack.framework */; };
 		6E1F7A3D18C199CD007E6E8F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7A3C18C199CD007E6E8F /* MainMenu.xib */; };
 		6E1F7A4118C19A02007E6E8F /* wrkstrm-app.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7A3E18C19A02007E6E8F /* wrkstrm-app.png */; };
 		6E1F7A4218C19A02007E6E8F /* wrkstrm_privacy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7A3F18C19A02007E6E8F /* wrkstrm_privacy2.png */; };
 		6E1F7A4318C19A02007E6E8F /* wrkstrm_privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7A4018C19A02007E6E8F /* wrkstrm_privacy.png */; };
 		6E1F7A4618C19A1F007E6E8F /* WSMAccessibilityUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F7A4518C19A1F007E6E8F /* WSMAccessibilityUtilities.m */; };
+		6E7050EE194992E400DC5627 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7050ED194992E400DC5627 /* CouchbaseLite.framework */; };
+		6E7050EF194992E400DC5627 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7050ED194992E400DC5627 /* CouchbaseLite.framework */; };
+		6E7050F01949930100DC5627 /* CouchbaseLite.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6E7050ED194992E400DC5627 /* CouchbaseLite.framework */; };
 		6EFF474118BC58F300691A3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFF474018BC58F300691A3C /* Cocoa.framework */; };
 		6EFF474B18BC58F300691A3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF474918BC58F300691A3C /* InfoPlist.strings */; };
 		6EFF474D18BC58F300691A3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF474C18BC58F300691A3C /* main.m */; };
@@ -35,156 +35,10 @@
 		6EFF476118BC58F300691A3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFF474018BC58F300691A3C /* Cocoa.framework */; };
 		6EFF476918BC58F300691A3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF476718BC58F300691A3C /* InfoPlist.strings */; };
 		6EFF476B18BC58F300691A3C /* wrkstrmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF476A18BC58F300691A3C /* wrkstrmTests.m */; };
+		C485E8D14A134D739B25F6D0 /* libPods-wrkstrm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A92464131246B68A23177B /* libPods-wrkstrm.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6E1F79CC18C18549007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 270B3DEA1489359000E0A926;
-			remoteInfo = "CBL Mac";
-		};
-		6E1F79CE18C18549007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27B0B7E71492BB6B00A817AD;
-			remoteInfo = "CBL iOS";
-		};
-		6E1F79D018C18549007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27B0B7A91492B83B00A817AD;
-			remoteInfo = "CBL iOS library";
-		};
-		6E1F79D218C18549007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27C70694148864BA00F0F099;
-			remoteInfo = "CBL Mac Demo";
-		};
-		6E1F79D418C18549007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27B0B80B1492C16300A817AD;
-			remoteInfo = "Grocery Sync iOS Demo";
-		};
-		6E1F79D618C18549007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27731F2A1495CFEF00815D67;
-			remoteInfo = "CBL iOS Empty App";
-		};
-		6E1F79D818C18549007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 275315D514ACF0A10065964D;
-			remoteInfo = "CBL Listener Mac";
-		};
-		6E1F79DA18C18549007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DA147C3614BCAC3B0052DA4D;
-			remoteInfo = "CBL Listener iOS";
-		};
-		6E1F79DC18C18549007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DA023B6414BCA94C008184BB;
-			remoteInfo = "Listener iOS Library";
-		};
-		6E1F79DE18C18549007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 270FE0C814C5008C005FF647;
-			remoteInfo = LiteServ;
-		};
-		6E1F79E018C18549007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27538F5017F13B03004C3BFD;
-			remoteInfo = "LiteServ App";
-		};
-		6E1F79E218C18549007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 792867BF178DE01900248AF0;
-			remoteInfo = CBLJSViewCompiler;
-		};
-		6E1F7A1B18C187A5007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 88037F8315056328001A5B19;
-			remoteInfo = ReactiveCocoa;
-		};
-		6E1F7A1D18C187A5007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
-			remoteInfo = "ReactiveCocoa-iOS";
-		};
-		6E1F7A1F18C187A5007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
-			remoteInfo = ReactiveCocoaTests;
-		};
-		6E1F7A2118C187A5007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5FAF5223174D4C2000CAC810;
-			remoteInfo = "ReactiveCocoaTests-iOS";
-		};
-		6E1F7A2318C187A5007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1860F412177C91B500C7B3C9;
-			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHost";
-		};
-		6E1F7A2518C187A5007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1860F430177C91B500C7B3C9;
-			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHostTests";
-		};
-		6E1F7A2718C187A5007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D05AD39417F2D56F0080895B;
-			remoteInfo = "ReactiveCocoa-Mac";
-		};
-		6E1F7A2F18C18A84007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F7A2A18C18A84007E6E8F /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCB3185114EB418E001CFBEE;
-			remoteInfo = Lumberjack;
-		};
-		6E1F7A3118C18A84007E6E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E1F7A2A18C18A84007E6E8F /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCB318CA14ED6C3B001CFBEE;
-			remoteInfo = FmwkTest;
-		};
 		6EFF476218BC58F300691A3C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6EFF473318BC57D600691A3C /* Project object */;
@@ -193,6 +47,19 @@
 			remoteInfo = wrkstrm;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E11858019498E7600DC93B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6E7050F01949930100DC5627 /* CouchbaseLite.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6E1D798E18BC5D1B0046671E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -219,15 +86,13 @@
 		6E1F79B418C180DB007E6E8F /* WSMKeyboardTrackerViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMKeyboardTrackerViews.m; sourceTree = "<group>"; };
 		6E1F79B718C1810F007E6E8F /* NSStatusItem+WSMKeystrokeTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStatusItem+WSMKeystrokeTracker.h"; sourceTree = "<group>"; };
 		6E1F79B818C1810F007E6E8F /* NSStatusItem+WSMKeystrokeTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStatusItem+WSMKeystrokeTracker.m"; sourceTree = "<group>"; };
-		6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CouchbaseLite.xcodeproj; path = "vendor/couchbase-lite-objc/CouchbaseLite.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = "vendor/reactive-cocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj"; sourceTree = "<group>"; };
-		6E1F7A2A18C18A84007E6E8F /* Lumberjack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lumberjack.xcodeproj; path = "vendor/cocoa-lumberjack/Xcode/LumberjackFramework/Desktop/Lumberjack.xcodeproj"; sourceTree = "<group>"; };
 		6E1F7A3C18C199CD007E6E8F /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		6E1F7A3E18C19A02007E6E8F /* wrkstrm-app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wrkstrm-app.png"; sourceTree = "<group>"; };
 		6E1F7A3F18C19A02007E6E8F /* wrkstrm_privacy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrkstrm_privacy2.png; sourceTree = "<group>"; };
 		6E1F7A4018C19A02007E6E8F /* wrkstrm_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrkstrm_privacy.png; sourceTree = "<group>"; };
 		6E1F7A4418C19A1F007E6E8F /* WSMAccessibilityUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMAccessibilityUtilities.h; sourceTree = "<group>"; };
 		6E1F7A4518C19A1F007E6E8F /* WSMAccessibilityUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMAccessibilityUtilities.m; sourceTree = "<group>"; };
+		6E7050ED194992E400DC5627 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchbaseLite.framework; path = vendor/CouchbaseLite.framework; sourceTree = "<group>"; };
 		6EFF473D18BC58F300691A3C /* wrkstrm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wrkstrm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFF474018BC58F300691A3C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6EFF474318BC58F300691A3C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -245,6 +110,8 @@
 		6EFF476618BC58F300691A3C /* wrkstrmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wrkstrmTests-Info.plist"; sourceTree = "<group>"; };
 		6EFF476818BC58F300691A3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6EFF476A18BC58F300691A3C /* wrkstrmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wrkstrmTests.m; sourceTree = "<group>"; };
+		D1CC5189F569494EAA2880B7 /* Pods-wrkstrm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wrkstrm.xcconfig"; path = "Pods/Pods-wrkstrm.xcconfig"; sourceTree = "<group>"; };
+		F5A92464131246B68A23177B /* libPods-wrkstrm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wrkstrm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,10 +119,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E1F7A3318C18AA3007E6E8F /* Lumberjack.framework in Frameworks */,
-				6E1F7A2918C187D0007E6E8F /* ReactiveCocoa.framework in Frameworks */,
-				6E1F79E418C1858F007E6E8F /* CouchbaseLite.framework in Frameworks */,
 				6EFF474118BC58F300691A3C /* Cocoa.framework in Frameworks */,
+				6E7050EE194992E400DC5627 /* CouchbaseLite.framework in Frameworks */,
+				C485E8D14A134D739B25F6D0 /* libPods-wrkstrm.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EFF476118BC58F300691A3C /* Cocoa.framework in Frameworks */,
+				6E7050EF194992E400DC5627 /* CouchbaseLite.framework in Frameworks */,
 				6EFF476018BC58F300691A3C /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,48 +182,6 @@
 			name = "Stage 0: Access & Create Menulet";
 			sourceTree = "<group>";
 		};
-		6E1F79BC18C18548007E6E8F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6E1F79CD18C18549007E6E8F /* CouchbaseLite.framework */,
-				6E1F79CF18C18549007E6E8F /* CouchbaseLite.framework */,
-				6E1F79D118C18549007E6E8F /* libCouchbaseLite.a */,
-				6E1F79D318C18549007E6E8F /* Couchbase Lite Demo.app */,
-				6E1F79D518C18549007E6E8F /* Grocery Sync.app */,
-				6E1F79D718C18549007E6E8F /* Couchbase Lite Empty App.app */,
-				6E1F79D918C18549007E6E8F /* CouchbaseLiteListener.framework */,
-				6E1F79DB18C18549007E6E8F /* CouchbaseLiteListener.framework */,
-				6E1F79DD18C18549007E6E8F /* libCouchbaseLiteListener.a */,
-				6E1F79DF18C18549007E6E8F /* LiteServ */,
-				6E1F79E118C18549007E6E8F /* LiteServ.app */,
-				6E1F79E318C18549007E6E8F /* libCBLJSViewCompiler.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6E1F7A1018C187A5007E6E8F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6E1F7A1C18C187A5007E6E8F /* ReactiveCocoa.framework */,
-				6E1F7A1E18C187A5007E6E8F /* libReactiveCocoa-iOS.a */,
-				6E1F7A2018C187A5007E6E8F /* ReactiveCocoaTests.octest */,
-				6E1F7A2218C187A5007E6E8F /* ReactiveCocoaTests-iOS.octest */,
-				6E1F7A2418C187A5007E6E8F /* ReactiveCocoa-iOS-UIKitTestHost.app */,
-				6E1F7A2618C187A5007E6E8F /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */,
-				6E1F7A2818C187A5007E6E8F /* libReactiveCocoa-Mac.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6E1F7A2B18C18A84007E6E8F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6E1F7A3018C18A84007E6E8F /* Lumberjack.framework */,
-				6E1F7A3218C18A84007E6E8F /* FmwkTest.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		6EFF473218BC57D600691A3C = {
 			isa = PBXGroup;
 			children = (
@@ -364,9 +189,7 @@
 				6EFF476418BC58F300691A3C /* wrkstrmTests */,
 				6EFF473F18BC58F300691A3C /* Frameworks */,
 				6EFF473E18BC58F300691A3C /* Products */,
-				6E1F7A2A18C18A84007E6E8F /* Lumberjack.xcodeproj */,
-				6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */,
-				6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */,
+				D1CC5189F569494EAA2880B7 /* Pods-wrkstrm.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -382,9 +205,11 @@
 		6EFF473F18BC58F300691A3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E7050ED194992E400DC5627 /* CouchbaseLite.framework */,
 				6EFF474018BC58F300691A3C /* Cocoa.framework */,
 				6EFF475F18BC58F300691A3C /* XCTest.framework */,
 				6EFF474218BC58F300691A3C /* Other Frameworks */,
+				F5A92464131246B68A23177B /* libPods-wrkstrm.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -456,10 +281,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EFF476C18BC58F300691A3C /* Build configuration list for PBXNativeTarget "wrkstrm" */;
 			buildPhases = (
+				55C47405B1824FC38EB6E1E9 /* Check Pods Manifest.lock */,
 				6EFF473918BC58F300691A3C /* Sources */,
 				6EFF473A18BC58F300691A3C /* Frameworks */,
 				6EFF473B18BC58F300691A3C /* Resources */,
 				6E1D799118BC60F70046671E /* ShellScript */,
+				B4574B7FC5CA4AC187CD78C7 /* Copy Pods Resources */,
+				6E11858019498E7600DC93B7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -494,12 +322,12 @@
 		6EFF473318BC57D600691A3C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				TargetAttributes = {
 					6EFF473C18BC58F300691A3C = {
 						SystemCapabilities = {
 							com.apple.Sandbox = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -519,20 +347,6 @@
 			mainGroup = 6EFF473218BC57D600691A3C;
 			productRefGroup = 6EFF473E18BC58F300691A3C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 6E1F79BC18C18548007E6E8F /* Products */;
-					ProjectRef = 6E1F79BB18C18548007E6E8F /* CouchbaseLite.xcodeproj */;
-				},
-				{
-					ProductGroup = 6E1F7A2B18C18A84007E6E8F /* Products */;
-					ProjectRef = 6E1F7A2A18C18A84007E6E8F /* Lumberjack.xcodeproj */;
-				},
-				{
-					ProductGroup = 6E1F7A1018C187A5007E6E8F /* Products */;
-					ProjectRef = 6E1F7A0F18C187A5007E6E8F /* ReactiveCocoa.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				6EFF473C18BC58F300691A3C /* wrkstrm */,
@@ -540,156 +354,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		6E1F79CD18C18549007E6E8F /* CouchbaseLite.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CouchbaseLite.framework;
-			remoteRef = 6E1F79CC18C18549007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F79CF18C18549007E6E8F /* CouchbaseLite.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CouchbaseLite.framework;
-			remoteRef = 6E1F79CE18C18549007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F79D118C18549007E6E8F /* libCouchbaseLite.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCouchbaseLite.a;
-			remoteRef = 6E1F79D018C18549007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F79D318C18549007E6E8F /* Couchbase Lite Demo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Couchbase Lite Demo.app";
-			remoteRef = 6E1F79D218C18549007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F79D518C18549007E6E8F /* Grocery Sync.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Grocery Sync.app";
-			remoteRef = 6E1F79D418C18549007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F79D718C18549007E6E8F /* Couchbase Lite Empty App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Couchbase Lite Empty App.app";
-			remoteRef = 6E1F79D618C18549007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F79D918C18549007E6E8F /* CouchbaseLiteListener.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CouchbaseLiteListener.framework;
-			remoteRef = 6E1F79D818C18549007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F79DB18C18549007E6E8F /* CouchbaseLiteListener.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CouchbaseLiteListener.framework;
-			remoteRef = 6E1F79DA18C18549007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F79DD18C18549007E6E8F /* libCouchbaseLiteListener.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCouchbaseLiteListener.a;
-			remoteRef = 6E1F79DC18C18549007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F79DF18C18549007E6E8F /* LiteServ */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = LiteServ;
-			remoteRef = 6E1F79DE18C18549007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F79E118C18549007E6E8F /* LiteServ.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = LiteServ.app;
-			remoteRef = 6E1F79E018C18549007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F79E318C18549007E6E8F /* libCBLJSViewCompiler.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCBLJSViewCompiler.a;
-			remoteRef = 6E1F79E218C18549007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F7A1C18C187A5007E6E8F /* ReactiveCocoa.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveCocoa.framework;
-			remoteRef = 6E1F7A1B18C187A5007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F7A1E18C187A5007E6E8F /* libReactiveCocoa-iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libReactiveCocoa-iOS.a";
-			remoteRef = 6E1F7A1D18C187A5007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F7A2018C187A5007E6E8F /* ReactiveCocoaTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ReactiveCocoaTests.octest;
-			remoteRef = 6E1F7A1F18C187A5007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F7A2218C187A5007E6E8F /* ReactiveCocoaTests-iOS.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ReactiveCocoaTests-iOS.octest";
-			remoteRef = 6E1F7A2118C187A5007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F7A2418C187A5007E6E8F /* ReactiveCocoa-iOS-UIKitTestHost.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "ReactiveCocoa-iOS-UIKitTestHost.app";
-			remoteRef = 6E1F7A2318C187A5007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F7A2618C187A5007E6E8F /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ReactiveCocoa-iOS-UIKitTestHostTests.octest";
-			remoteRef = 6E1F7A2518C187A5007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F7A2818C187A5007E6E8F /* libReactiveCocoa-Mac.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libReactiveCocoa-Mac.a";
-			remoteRef = 6E1F7A2718C187A5007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F7A3018C18A84007E6E8F /* Lumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Lumberjack.framework;
-			remoteRef = 6E1F7A2F18C18A84007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E1F7A3218C18A84007E6E8F /* FmwkTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = FmwkTest.app;
-			remoteRef = 6E1F7A3118C18A84007E6E8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6EFF473B18BC58F300691A3C /* Resources */ = {
@@ -717,6 +381,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		55C47405B1824FC38EB6E1E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		6E1D799118BC60F70046671E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -729,6 +408,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "#!/bin/bash\nif [ -n \"$(find \"$PROJECT_DIR\" \\! -path \"*xcuserdata*\" \\! -path \"*.git\" -newer \"$INFOPLIST_FILE\")\" ]; then\nversionNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"$INFOPLIST_FILE\")\nversionNumber=`echo $versionNumber +0.001|bc`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $versionNumber\" \"$INFOPLIST_FILE\"\n\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\nfi\n\n";
+		};
+		B4574B7FC5CA4AC187CD78C7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-wrkstrm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -802,6 +496,7 @@
 		6EFF473718BC57D700691A3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -813,6 +508,7 @@
 		};
 		6EFF476D18BC58F300691A3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CC5189F569494EAA2880B7 /* Pods-wrkstrm.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -836,12 +532,16 @@
 				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = wrkstrm/wrkstrm.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer: Leonel Monterroza (4PW7DT68ZC)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = /;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/vendor",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -867,7 +567,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LLVM_LTO = YES;
 				LLVM_VECTORIZE_LOOPS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -879,6 +579,7 @@
 		};
 		6EFF476E18BC58F300691A3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CC5189F569494EAA2880B7 /* Pods-wrkstrm.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -902,14 +603,18 @@
 				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = wrkstrm/wrkstrm.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer: Leonel Monterroza (4PW7DT68ZC)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = /;
 				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/vendor",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -928,7 +633,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LLVM_LTO = YES;
 				LLVM_VECTORIZE_LOOPS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -959,6 +664,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(PROJECT_DIR)/vendor",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1010,6 +716,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(PROJECT_DIR)/vendor",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
