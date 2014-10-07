@@ -1,11 +1,5 @@
 # Uncomment this line to define a global platform for your project
-platform :osx, '10.7'
+platform :osx, '10.9'
 
-target "wrkstrm" do
-  pod "ReactiveCocoa"
-  pod 'CocoaLumberjack'
-end
-
-target "wrkstrmTests" do
-
-end
+pod 'CocoaLumberjack'
+pod 'ReactiveCocoa'

@@ -30,7 +30,7 @@
  **/
 
 #import <libkern/OSAtomic.h>
-#import <Lumberjack/Lumberjack.h>
+#import "DDLog.h"
 
 #if TARGET_OS_IPHONE
 #import <UIKit/UIColor.h>

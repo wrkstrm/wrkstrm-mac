@@ -8,8 +8,6 @@
 
 @interface WSMModel : CBLModel
 
-@property (nonatomic, strong) NSString *type;
-
 - (NSString *)docID;
 
 @end

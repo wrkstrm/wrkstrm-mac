@@ -22,6 +22,7 @@
 static const NSString *const kWSMViewRegistries = @"registries";
 static const NSString *const kWSMViewVariables = @"variables";
 static const NSString *const kWSMViewTimers = @"timers";
+
 NSString *const kWSMViewRefreshNotification = @"kWSMViewRefreshNotification";
 
 - (void)addRegistry:(Class <WSMViewRegistry>)registry forViews:(NSArray *)views {
@@ -35,6 +36,7 @@ NSString *const kWSMViewRefreshNotification = @"kWSMViewRefreshNotification";
 - (void)mapBlockForViewNamed:(NSString *)name {
     if (name) {
         Class <WSMViewRegistry> registry = NSClassFromString(self.registries[name]);
+        
 
         //Although views should be pure funtions,
         //there are some instance variables which are too expensive to create every time a view updates

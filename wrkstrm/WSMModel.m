@@ -8,9 +8,9 @@
 
 #import "WSMModel.h"
 
-@implementation WSMModel
+@class CBLModel;
 
-@dynamic type;
+@implementation WSMModel : CBLModel
 
 - (NSString *)docID {
     return self.document.documentID;

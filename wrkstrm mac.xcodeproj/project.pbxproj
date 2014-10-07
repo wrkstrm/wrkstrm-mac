@@ -23,9 +23,9 @@
 		6E1F7A4218C19A02007E6E8F /* wrkstrm_privacy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7A3F18C19A02007E6E8F /* wrkstrm_privacy2.png */; };
 		6E1F7A4318C19A02007E6E8F /* wrkstrm_privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7A4018C19A02007E6E8F /* wrkstrm_privacy.png */; };
 		6E1F7A4618C19A1F007E6E8F /* WSMAccessibilityUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F7A4518C19A1F007E6E8F /* WSMAccessibilityUtilities.m */; };
-		6E7050EE194992E400DC5627 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7050ED194992E400DC5627 /* CouchbaseLite.framework */; };
-		6E7050EF194992E400DC5627 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7050ED194992E400DC5627 /* CouchbaseLite.framework */; };
-		6E7050F01949930100DC5627 /* CouchbaseLite.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6E7050ED194992E400DC5627 /* CouchbaseLite.framework */; };
+		6ED357CD19E3A49F00F564F3 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED357CC19E3A49F00F564F3 /* CouchbaseLite.framework */; };
+		6ED357CE19E3A49F00F564F3 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED357CC19E3A49F00F564F3 /* CouchbaseLite.framework */; };
+		6ED357CF19E3A4BE00F564F3 /* CouchbaseLite.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6ED357CC19E3A49F00F564F3 /* CouchbaseLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6EFF474118BC58F300691A3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFF474018BC58F300691A3C /* Cocoa.framework */; };
 		6EFF474B18BC58F300691A3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF474918BC58F300691A3C /* InfoPlist.strings */; };
 		6EFF474D18BC58F300691A3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF474C18BC58F300691A3C /* main.m */; };
@@ -35,6 +35,7 @@
 		6EFF476118BC58F300691A3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFF474018BC58F300691A3C /* Cocoa.framework */; };
 		6EFF476918BC58F300691A3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF476718BC58F300691A3C /* InfoPlist.strings */; };
 		6EFF476B18BC58F300691A3C /* wrkstrmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF476A18BC58F300691A3C /* wrkstrmTests.m */; };
+		99B65C051363470202821891 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F11E22C666490CF3B61F1E3 /* libPods.a */; };
 		C485E8D14A134D739B25F6D0 /* libPods-wrkstrm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A92464131246B68A23177B /* libPods-wrkstrm.a */; };
 /* End PBXBuildFile section */
 
@@ -55,13 +56,17 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6E7050F01949930100DC5627 /* CouchbaseLite.framework in CopyFiles */,
+				6ED357CF19E3A4BE00F564F3 /* CouchbaseLite.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		166C1BF9E36454E597223C3B /* Pods-wrkstrm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wrkstrm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wrkstrm/Pods-wrkstrm.debug.xcconfig"; sourceTree = "<group>"; };
+		1ECBF05A9F7EF524DD73D3EE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4F11E22C666490CF3B61F1E3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FC54B8B55A554C07857FC2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6E1D798E18BC5D1B0046671E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6E1D799018BC5D640046671E /* wrkstrm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wrkstrm.entitlements; sourceTree = "<group>"; };
 		6E1F799818C18014007E6E8F /* WSMUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMUtilities.h; sourceTree = "<group>"; };
@@ -92,7 +97,7 @@
 		6E1F7A4018C19A02007E6E8F /* wrkstrm_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrkstrm_privacy.png; sourceTree = "<group>"; };
 		6E1F7A4418C19A1F007E6E8F /* WSMAccessibilityUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMAccessibilityUtilities.h; sourceTree = "<group>"; };
 		6E1F7A4518C19A1F007E6E8F /* WSMAccessibilityUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMAccessibilityUtilities.m; sourceTree = "<group>"; };
-		6E7050ED194992E400DC5627 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchbaseLite.framework; path = vendor/CouchbaseLite.framework; sourceTree = "<group>"; };
+		6ED357CC19E3A49F00F564F3 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchbaseLite.framework; path = wrkstrm/Frameworks/CouchbaseLite.framework; sourceTree = "<group>"; };
 		6EFF473D18BC58F300691A3C /* wrkstrm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wrkstrm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFF474018BC58F300691A3C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6EFF474318BC58F300691A3C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -110,7 +115,7 @@
 		6EFF476618BC58F300691A3C /* wrkstrmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wrkstrmTests-Info.plist"; sourceTree = "<group>"; };
 		6EFF476818BC58F300691A3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6EFF476A18BC58F300691A3C /* wrkstrmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wrkstrmTests.m; sourceTree = "<group>"; };
-		D1CC5189F569494EAA2880B7 /* Pods-wrkstrm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wrkstrm.xcconfig"; path = "Pods/Pods-wrkstrm.xcconfig"; sourceTree = "<group>"; };
+		73073F278D3E2D756CE7465F /* Pods-wrkstrm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wrkstrm.release.xcconfig"; path = "Pods/Target Support Files/Pods-wrkstrm/Pods-wrkstrm.release.xcconfig"; sourceTree = "<group>"; };
 		F5A92464131246B68A23177B /* libPods-wrkstrm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wrkstrm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -120,8 +125,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EFF474118BC58F300691A3C /* Cocoa.framework in Frameworks */,
-				6E7050EE194992E400DC5627 /* CouchbaseLite.framework in Frameworks */,
 				C485E8D14A134D739B25F6D0 /* libPods-wrkstrm.a in Frameworks */,
+				6ED357CD19E3A49F00F564F3 /* CouchbaseLite.framework in Frameworks */,
+				99B65C051363470202821891 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EFF476118BC58F300691A3C /* Cocoa.framework in Frameworks */,
-				6E7050EF194992E400DC5627 /* CouchbaseLite.framework in Frameworks */,
+				6ED357CE19E3A49F00F564F3 /* CouchbaseLite.framework in Frameworks */,
 				6EFF476018BC58F300691A3C /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,7 +195,7 @@
 				6EFF476418BC58F300691A3C /* wrkstrmTests */,
 				6EFF473F18BC58F300691A3C /* Frameworks */,
 				6EFF473E18BC58F300691A3C /* Products */,
-				D1CC5189F569494EAA2880B7 /* Pods-wrkstrm.xcconfig */,
+				C3913D241F6D6C72F476BC20 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,11 +211,12 @@
 		6EFF473F18BC58F300691A3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6E7050ED194992E400DC5627 /* CouchbaseLite.framework */,
+				6ED357CC19E3A49F00F564F3 /* CouchbaseLite.framework */,
 				6EFF474018BC58F300691A3C /* Cocoa.framework */,
 				6EFF475F18BC58F300691A3C /* XCTest.framework */,
 				6EFF474218BC58F300691A3C /* Other Frameworks */,
 				F5A92464131246B68A23177B /* libPods-wrkstrm.a */,
+				4F11E22C666490CF3B61F1E3 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -274,6 +281,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C3913D241F6D6C72F476BC20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				166C1BF9E36454E597223C3B /* Pods-wrkstrm.debug.xcconfig */,
+				73073F278D3E2D756CE7465F /* Pods-wrkstrm.release.xcconfig */,
+				69FC54B8B55A554C07857FC2 /* Pods.debug.xcconfig */,
+				1ECBF05A9F7EF524DD73D3EE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -325,6 +343,7 @@
 				LastUpgradeCheck = 0600;
 				TargetAttributes = {
 					6EFF473C18BC58F300691A3C = {
+						DevelopmentTeam = BM6B69ZQSR;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 0;
@@ -421,7 +440,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-wrkstrm-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -508,7 +527,7 @@
 		};
 		6EFF476D18BC58F300691A3C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1CC5189F569494EAA2880B7 /* Pods-wrkstrm.xcconfig */;
+			baseConfigurationReference = 69FC54B8B55A554C07857FC2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -532,7 +551,8 @@
 				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer: Leonel Monterroza (4PW7DT68ZC)";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEPLOYMENT_LOCATION = YES;
@@ -540,7 +560,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/vendor",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/wrkstrm/Frameworks",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -567,10 +588,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LLVM_LTO = YES;
 				LLVM_VECTORIZE_LOOPS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -579,7 +601,7 @@
 		};
 		6EFF476E18BC58F300691A3C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1CC5189F569494EAA2880B7 /* Pods-wrkstrm.xcconfig */;
+			baseConfigurationReference = 1ECBF05A9F7EF524DD73D3EE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -603,7 +625,8 @@
 				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer: Leonel Monterroza (4PW7DT68ZC)";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -613,7 +636,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/vendor",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/wrkstrm/Frameworks",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -633,10 +657,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LLVM_LTO = YES;
 				LLVM_VECTORIZE_LOOPS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CODE_SIGN_FLAGS = "--deep";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -665,6 +690,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 					"$(PROJECT_DIR)/vendor",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/wrkstrm/Frameworks",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -686,6 +714,7 @@
 				INFOPLIST_FILE = "wrkstrmTests/wrkstrmTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -717,6 +746,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 					"$(PROJECT_DIR)/vendor",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/wrkstrm/Frameworks",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -730,6 +762,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "wrkstrmTests/wrkstrmTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
