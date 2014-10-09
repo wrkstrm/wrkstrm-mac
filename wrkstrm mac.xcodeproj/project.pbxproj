@@ -295,9 +295,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6EFF473C18BC58F300691A3C /* wrkstrm */ = {
+		6EFF473C18BC58F300691A3C /* wrkstrm-sql */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EFF476C18BC58F300691A3C /* Build configuration list for PBXNativeTarget "wrkstrm" */;
+			buildConfigurationList = 6EFF476C18BC58F300691A3C /* Build configuration list for PBXNativeTarget "wrkstrm-sql" */;
 			buildPhases = (
 				55C47405B1824FC38EB6E1E9 /* Check Pods Manifest.lock */,
 				6EFF473918BC58F300691A3C /* Sources */,
@@ -311,7 +311,7 @@
 			);
 			dependencies = (
 			);
-			name = wrkstrm;
+			name = "wrkstrm-sql";
 			productName = wrkstrm;
 			productReference = 6EFF473D18BC58F300691A3C /* wrkstrm.app */;
 			productType = "com.apple.product-type.application";
@@ -368,7 +368,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EFF473C18BC58F300691A3C /* wrkstrm */,
+				6EFF473C18BC58F300691A3C /* wrkstrm-sql */,
 				6EFF475D18BC58F300691A3C /* wrkstrmTests */,
 			);
 		};
@@ -479,7 +479,7 @@
 /* Begin PBXTargetDependency section */
 		6EFF476318BC58F300691A3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6EFF473C18BC58F300691A3C /* wrkstrm */;
+			target = 6EFF473C18BC58F300691A3C /* wrkstrm-sql */;
 			targetProxy = 6EFF476218BC58F300691A3C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -782,7 +782,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EFF476C18BC58F300691A3C /* Build configuration list for PBXNativeTarget "wrkstrm" */ = {
+		6EFF476C18BC58F300691A3C /* Build configuration list for PBXNativeTarget "wrkstrm-sql" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EFF476D18BC58F300691A3C /* Debug */,

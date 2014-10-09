@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6EFF473C18BC58F300691A3C"
-               BuildableName = "wrkstrm.app"
-               BlueprintName = "wrkstrm"
+               BuildableName = "wrkstrm-sql.app"
+               BlueprintName = "wrkstrm-sql"
                ReferencedContainer = "container:wrkstrm mac.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EFF473C18BC58F300691A3C"
-            BuildableName = "wrkstrm.app"
-            BlueprintName = "wrkstrm"
+            BuildableName = "wrkstrm-sql.app"
+            BlueprintName = "wrkstrm-sql"
             ReferencedContainer = "container:wrkstrm mac.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EFF473C18BC58F300691A3C"
-            BuildableName = "wrkstrm.app"
-            BlueprintName = "wrkstrm"
+            BuildableName = "wrkstrm-sql.app"
+            BlueprintName = "wrkstrm-sql"
             ReferencedContainer = "container:wrkstrm mac.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -80,8 +80,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EFF473C18BC58F300691A3C"
-            BuildableName = "wrkstrm.app"
-            BlueprintName = "wrkstrm"
+            BuildableName = "wrkstrm-sql.app"
+            BlueprintName = "wrkstrm-sql"
             ReferencedContainer = "container:wrkstrm mac.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

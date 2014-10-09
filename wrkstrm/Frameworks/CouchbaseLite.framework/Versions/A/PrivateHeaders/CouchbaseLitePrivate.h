@@ -29,13 +29,14 @@
 
 
 @interface CBLDatabase ()
-- (instancetype) initWithDir: (NSString*)dir
-                        name: (NSString*)name
-                     manager: (CBLManager*)manager
-                    readOnly: (BOOL)readOnly;
+- (instancetype) initWithPath: (NSString*)path
+                         name: (NSString*)name
+                      manager: (CBLManager*)manager
+                     readOnly: (BOOL)readOnly;
 @property (readonly, nonatomic) NSMutableSet* unsavedModelsMutable;
 - (void) removeDocumentFromCache: (CBLDocument*)document;
 - (void) doAsyncAfterDelay: (NSTimeInterval)delay block: (void (^)())block;
+- (BOOL) waitFor: (BOOL (^)())block;
 - (void) addReplication: (CBLReplication*)repl;
 - (void) forgetReplication: (CBLReplication*)repl;
 - (void) _clearDocumentCache;
@@ -84,11 +85,9 @@
                          revision: (CBL_Revision*)rev               __attribute__((nonnull(2)));
 - (instancetype) initWithDatabase: (CBLDatabase*)tddb
                          revision: (CBL_Revision*)rev               __attribute__((nonnull));
-- (instancetype) initForValidationWithDatabase: (CBLDatabase*)db
-                                      revision: (CBL_Revision*)rev
-                              parentRevisionID: (NSString*)parentRevID __attribute__((nonnull));
 @property (readonly) CBL_Revision* rev;
 @property (readonly) BOOL propertiesAreLoaded;
+- (void) _setParentRevisionID: (NSString*)parentRevID;
 @end
 
 
