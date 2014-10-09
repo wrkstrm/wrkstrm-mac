@@ -18,7 +18,7 @@ NSString *const kWSMViewTotalKeystrokeCount = @"totalKeystrokeCountView";
 
 + (NSDictionary *)instanceVariablesForViewNamed:(NSString *)name {
     if (name == kWSMViewDailyKeystrokeCount) {
-        return @{todayKey : [NSDate now: (NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit)]};
+        return @{todayKey:[NSDate now:(NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit)]};
     }
     return nil;
 }
