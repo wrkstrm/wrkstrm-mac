@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-CocoaLumberjack.xcscheme</key>
+		<key>Pods-wrkstrm-CocoaLumberjack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ReactiveCocoa.xcscheme</key>
+		<key>Pods-wrkstrm-ReactiveCocoa.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>Pods-wrkstrm.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0B95EEFDCA53972632ECA6AA</key>
+		<key>8C3ECD7EBE89AD48DCF4FF08</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A67BD946FE56D7CE1EDCDFFE</key>
+		<key>D3024AFB0DE14B60B155DFCE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F92901B3E2314D43278B1C30</key>
+		<key>E6EF1ABC93DCA55AE74FDBD1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
